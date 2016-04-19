@@ -16,6 +16,8 @@ require_once("dbcontroller.php");
 $db_handle = new DBController();
 
 
+
+
 $mid = $_COOKIE['id'];
 $mname= "";
 $sql = "select * from customer where C_ID ='".$mid."' ";
